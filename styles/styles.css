@@ -1,6 +1,7 @@
-:root {
-
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -49,11 +50,19 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    text-align: center;
+}
+
+aside h2 {
+    position:absolute;
+    top: 47px;
+    left: 150px;
 }
 
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 
 p {
@@ -64,4 +73,14 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box ´{
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }

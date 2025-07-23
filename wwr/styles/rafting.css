@@ -176,7 +176,7 @@ h2 {
   display: block;
 }
 
-/*section adventures awaist you*/
+/*section adventures awaits you*/
 
 
 .section-images {
@@ -239,6 +239,80 @@ h2 {
   text-decoration: none;
 }
 
+/*New Pages Contact Us*/
+
+.hero-contact {
+    position: relative;
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+.hero image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.booking {
+    text-align: center;
+    padding: 15px;
+    font-size: 45px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+article {
+    position: absolute;
+    bottom: 180px;
+    width: 95%;
+    opacity: 0.8;
+    background-color: var(--accent1-color);
+    border: 0;
+    padding: 0;
+    
+}
+
+article p {
+    padding: 0 0 10px 5px;
+    font-family: var(--heading-font);
+    font-weight: 400;
+    text-align: justify;
+    color: var(--primary-color)
+}
+
+/*section-contact*/
+
+.section-contact {
+  display: flex;
+  justify-content: space-between; /* space out images evenly */
+  align-items: flex-start;        /* align captions at top of figcaption */
+  gap: 20px;                      /* consistent gaps between items */
+  padding: 10;                    /* Arrange children in a horizontal row */
+}  
+
+.section-contact figure {
+  flex: 1 1 0;                   /* allow shrinking and growing equally */
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-contact img {
+  width: 100%;
+  height: auto;
+  max-width: 250px;              /* control max image size */
+  object-fit: cover;             /* maintain aspect ratio */
+  border-radius: 6px;
+  display: block;
+}
+
+.section-contact figcaption {
+  margin-top: 8px;
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
 
 /* Responsive: stack vertically on small screens */
 @media (max-width: 480px) {

@@ -121,7 +121,6 @@ article {
     background-color: var(--accent1-color);
     border: 0;
     padding: 0;
-    
 }
 
 article p {
@@ -177,7 +176,6 @@ h2 {
 }
 
 /*section adventures awaits you*/
-
 
 .section-images {
   display: flex;

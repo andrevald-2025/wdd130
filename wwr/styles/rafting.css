@@ -219,9 +219,9 @@ h2 {
   flex: 1 1 auto;
 }
 
-.footer-right {
+.socialmedia {
   display: flex;
-  gap: 30px;                      /* Space between icons */
+  gap: 15px;                      /* Space between icons */
   flex: 0 0 auto;
 }
 

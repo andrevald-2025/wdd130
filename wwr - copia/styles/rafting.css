@@ -138,6 +138,14 @@ article p {
     width: 125px;
 }
 
+.hero image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*section title history*/
+
 h2 {
     text-align: center;
     padding: 15px;
@@ -177,7 +185,6 @@ h2 {
 }
 
 /*section adventures awaits you*/
-
 
 .section-images {
   display: flex;
@@ -274,7 +281,7 @@ h1 {
   background-color:var(--secondary-color);
   color: var(--accent1-color);          
   border: none;                           /* Remove border */
-  padding: 15px 32px;                     /* Padding inside the button */
+  padding: 15px 32px;                     /* Padding inside the button*/
   text-align: center;                     /* Center text */
   font-size: 20px;                       /* Font size */
   cursor: pointer;                       /* Pointer cursor on hover */
@@ -289,7 +296,7 @@ h1 {
 }
 
 
-/*section-contact*/
+/*section-activities*/
 
 .section-contact {
   display: flex;
@@ -311,7 +318,7 @@ h1 {
 .section-contact img {
   width: 100%;
   height: auto;
-  max-width: 250px;              /* control max image size */
+  max-width: 256px;              /* control max image size */
   object-fit: cover;             /* maintain aspect ratio */
   border-radius: 6px;
   display: block;
@@ -329,7 +336,7 @@ h1 {
     flex-direction: column;
     text-align: center;
     gap: 10px;
-  }
+  }url(../../wwr/images/camping.jpg) url(../../wwr/images/rapids.jpg) url(../../wwr/images/swimming.jpg)
 
   .footer-left,
   .footer-right {

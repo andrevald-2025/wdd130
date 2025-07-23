@@ -160,6 +160,7 @@ h2 {
 .text-block {
   flex: 1;                       /* Text blocks take equal flexible space */
   padding: 30px;
+  text-align: center;
   font-family: var(--body-font);
   color: var(--secondary-color);
 }

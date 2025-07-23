@@ -114,7 +114,6 @@ article {
     position: absolute;
     bottom: 180px;
     width: 95%;
-    padding: auto;
     opacity: 0.8;
     background-color: var(--accent1-color);
 }

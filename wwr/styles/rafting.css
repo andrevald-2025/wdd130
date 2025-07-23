@@ -208,11 +208,11 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #222;          /* Dark background */
-  color: #eee;                     /* Light text */
-  padding: 15px 30px;
-  font-family: Arial, sans-serif;
-  font-size: 0.9rem;
+  background-color: var(--primary-color);          /* Dark background */
+  color: var(--secondary-color);                     /* Light text */
+  padding: 0;
+  font-family: var(--heading-font);
+  font-size: 1rem;
   flex-wrap: wrap;                 /* For responsiveness on small screens */
 }
 
@@ -222,14 +222,11 @@ h2 {
 
 .footer-right {
   display: flex;
-  gap: 15px;                      /* Space between icons */
+  gap: 30px;                      /* Space between icons */
   flex: 0 0 auto;
 }
 
 .socialmedia a {
-  color: #eee;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
   text-decoration: none;
 }
 

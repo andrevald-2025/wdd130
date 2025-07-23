@@ -40,7 +40,7 @@ header {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 150px 1fr;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     max-width: 100%;     
 }
 
@@ -49,7 +49,7 @@ header {
     flex-wrap: wrap;
     list-style: none;
     padding: 0px;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 
 .navigation li {
@@ -62,7 +62,7 @@ header {
     align-items: center;
     padding: 15px 15px 15px 50px;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--accent1-color);
     font-family: var(--heading-font);
     font-size: 1.2rem;
     font-weight: 400;
@@ -86,6 +86,7 @@ header {
 .hero {
     position: relative;
     width: 100%;
+    padding: 10px 0 0 0;
 }
 
 .hero image {
@@ -99,7 +100,7 @@ h1 {
     top: 20px;
     width: 100%;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     color: var(--primary-color);
     background-color: var(--accent1-color);
     opacity: 0.7;
@@ -110,30 +111,36 @@ p {
     color: var(--secondary-color);
 }
 
+/*hero article*/
+
 article {
     position: absolute;
     bottom: 180px;
     width: 95%;
     opacity: 0.8;
     background-color: var(--accent1-color);
+    border: 0;
+    padding: 0;
+    
 }
 
 article p {
     padding: 0 0 10px 5px;
     font-family: var(--heading-font);
     font-weight: 400;
+    text-align: justify;
     color: var(--primary-color)
 }
 
 .hero article img {
     float: right;
-    padding: 10px;
+    padding: 15px;
     width: 125px;
 }
 
 h2 {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     color: var(--primary-color);
 }
@@ -146,12 +153,13 @@ h2 {
   justify-content: space-between; /* Distribute space evenly between items */
   align-items: center;            /* Vertically center the items */
   padding: 0;
+  margin: 0;
   background-color: var(--accent1-color);
 }
 
 .text-block {
   flex: 1;                       /* Text blocks take equal flexible space */
-  padding: 10px;
+  padding: 30px;
   font-family: var(--body-font);
   color: var(--secondary-color);
 }
@@ -169,12 +177,13 @@ h2 {
 
 /*section adventures awaist you*/
 
+
 .section-images {
   display: flex;
   justify-content: space-between; /* space out images evenly */
   align-items: flex-start;        /* align captions at top of figcaption */
   gap: 20px;                      /* consistent gaps between items */
-  padding: 20px;       /* Arrange children in a horizontal row */
+  padding: 0;       /* Arrange children in a horizontal row */
 }  
 
 .section-images figure {
@@ -207,7 +216,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--primary-color);          /* Dark background */
+  background-color: var(--accent1-color);          /* Dark background */
   color: var(--secondary-color);                     /* Light text */
   padding: 0;
   font-family: var(--heading-font);
@@ -229,11 +238,6 @@ h2 {
   text-decoration: none;
 }
 
-.footer-right a:hover,
-.footer-right a:focus {
-  color: #1da1f2; /* Twitter blue as hover example */
-  outline: none;
-}
 
 /* Responsive: stack vertically on small screens */
 @media (max-width: 480px) {

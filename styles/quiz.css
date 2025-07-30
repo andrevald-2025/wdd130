@@ -21,6 +21,11 @@ body {
   color: #333;
 }
 
+h1 {
+  font-family: var(--heading-font);
+  color: var(--primary-color)
+}
+
 footer {
   background-color: var(--primary-color);
   color: var(--accent1-color);
@@ -51,7 +56,7 @@ fieldset {
 
 legend {
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   padding: 0 0.5rem;
 }
 

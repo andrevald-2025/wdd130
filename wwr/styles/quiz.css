@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #192961; /*Delft Blue*/
+    --secondary-color: #E4572E; /*Flame*/
+    --accent1-color: #EFEDE6; /*Alabaster*/
+    --accent2-color: #BFCFEE; /*Periwinkle*/
+    --heading-font: "Lexend", sans-serif;
+    --body-font: "Kantumruy Pro ", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font), Arial, sans-serif;
+  background-color: var(--accent2-color);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+fieldset {
+  border: 2px solid var(--secondary-color);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+legend {
+  font-weight: bold;
+  color: var(--primary-color);
+  padding: 0 0.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: start;
+}
+
+button:hover {
+  background-color: #217dbb;
+}
+
+footer p {
+  margin: 0;

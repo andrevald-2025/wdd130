@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carolina Valdés">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <title>Basic HTML & CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <main>
+    <form>
+      <fieldset>
+        <legend>Quiz Questions</legend>
+
+        <!-- Question 1: Text input -->
+        <label for="q1">1. What does HTML stand for?</label>
+        <input type="text" id="q1" name="q1" required>
+
+        <!-- Question 2: Textarea -->
+        <label for="q2">2. Describe the difference between a class and an ID in CSS.</label>
+        <textarea id="q2" name="q2" rows="4" required></textarea>
+
+        <!-- Question 3: Select dropdown -->
+        <label for="q3">3. Which tag is used to link a CSS file to an HTML document?</label>
+        <select id="q3" name="q3" required>
+          <option value="" selected disabled>Choose One ...</option>
+          <option value="script">&lt;script&gt;</option>
+          <option value="style">&lt;style&gt;</option>
+          <option value="link">&lt;link&gt;</option>
+        </select>
+
+        <!-- Question 4: Number input -->
+        <label for="q4">4. How many heading levels are there in HTML?</label>
+        <input type="number" id="q4" name="q4" min="1" max="10" required>
+
+      </fieldset>
+
+      <button type="submit">Submit Answers</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 │ HTML & CSS Quiz │ Carolina Valdés</p>
+  </footer>
+</body>
+</html>

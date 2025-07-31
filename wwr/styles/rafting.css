@@ -304,6 +304,60 @@ h2 {
 }
 
 
+/*Meet the teams*/
+.team-section {
+  max-width: 840px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.team-section h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.employee-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-items: space-between;
+}
+
+.employee {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.employee:hover {
+  transform: scale(1.03);
+}
+
+.employee img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+figcaption {
+  padding: 1rem;
+}
+
+figcaption h3 {
+  margin: 0.5rem 0 0.2rem;
+  color: var(--primary-color);
+}
+
+figcaption p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
 /*section-contact*/
 
 .section-contact {

@@ -81,12 +81,50 @@
 
     <!--form-->
 
-        <section>
-            <img src="images/hero-image.jpg" alt="Picture of people doing rafting on a river" width="500">
-        </section>
-        <section>
-            <h2>Newsletter</h2>
-        </section>
+    <section class="contact-form-section">
+        <h2>Contact Us</h2>
+
+        <form>
+      <!-- Name -->
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <!-- Email -->
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <!-- Purpose -->
+      <fieldset>
+        <legend>Purpose of the Message:</legend>
+        <label>
+          <input type="radio" name="purpose" value="general" required>
+          General Inquiry
+        </label>
+        <label>
+          <input type="radio" name="purpose" value="reservation">
+          Reservation Question
+        </label>
+        <label>
+          <input type="radio" name="purpose" value="suggestion">
+          Website Suggestion
+        </label>
+      </fieldset>
+
+      <!-- Message -->
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <!-- Newsletter checkbox -->
+      <label class="checkbox-label">
+        <input type="checkbox" name="subscribe" id="subscribe">
+        Please subscribe me to the monthly newsletter
+      </label>
+
+      <!-- Submit button -->
+      <button type="submit">Send Message</button>
+
+    </form>
+  </section>
     </main>
 
     <!--footer-->

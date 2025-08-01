@@ -259,10 +259,11 @@ h2 {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.company-info h2 {
+.contact-name {
   color: var(--primary-color);
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
+  color: var(--secondary-color)
 }
 
 .company-info p {

@@ -239,6 +239,16 @@ h2 {
 
 /*New Pages Contact Us*/
 
+.contact-title {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+  }
+
 .company-info {
   max-width: 840px;
   margin: 2rem auto;

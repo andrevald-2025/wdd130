@@ -279,31 +279,6 @@ h2 {
   display: block;
 }
 
-/*button
-
-.my-button {
-  position: absolute;
-  top: 40%;
-  left: 65%;
-  
-  background-color:var(--secondary-color);
-  color: var(--accent1-color);          
-  border: none;                           /* Remove border */
-  padding: 15px 32px;                     /* Padding inside the button */
-  text-align: center;                     /* Center text */
-  font-size: 20px;                       /* Font size */
-  cursor: pointer;                       /* Pointer cursor on hover */
-  border-radius: 5px;                    /* Rounded corners */
-  transition: background-color 0.3s ease;
-  font-family: var(--heading-font);
-  font-weight: 700;
-}
-
-.my-button:hover {
-  background-color: #037a4c; /* Darker green on hover */
-}
-
-
 /*Meet the teams*/
 .team-section {
   max-width: 840px;

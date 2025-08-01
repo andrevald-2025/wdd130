@@ -244,9 +244,10 @@ h2 {
     top: 20px;
     width: 100%;
     text-align: center;
-    font-size: 45px;
-    color: var(--primary-color);
-    background-color: var(--accent1-color);
+    padding: 10px;
+    font-size: 35px;    
+    color: var(--accent1-color);
+    background-color: var(--secondary-color);
   }
 
 .company-info {

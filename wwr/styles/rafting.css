@@ -241,7 +241,7 @@ article p {
 
 /*New Pages Contact Us*/
 
-.contact-title {
+.company-title {
     position: relative;
     top: 20px;
     width: 100%;
@@ -450,7 +450,7 @@ header, main, footer {
 /* Hero Section */
 
 .home-hero {
-  position: relative;
+  position: absolute
   width: 100%;
   height: 500px;
   overflow: hidden;
@@ -470,7 +470,7 @@ header, main, footer {
   text-align: center;
   padding: 2rem;
   background-color: var(--accent1-color);
-}
+  }
 
 .call-to-action p {
     font-family: var(--body-font);
@@ -524,7 +524,7 @@ header, main, footer {
 }
 
 .newsletter button:hover {
-  background-color: var(--accent2-color);
+  background-color: var(--secondary-color);
 }
 
 h3 {
@@ -555,6 +555,12 @@ h3 {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+
+.feature h4 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  padding: 1rem;
 }
 
 .feature div {

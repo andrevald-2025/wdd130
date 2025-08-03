@@ -1,7 +1,7 @@
 :root {
     --primary-color: #192961; /*Delft Blue*/
     --secondary-color: #E4572E; /*Flame*/
-    --accent1-color: #EFEDE6; /*Alabaster*/
+    --accent1-color: #fafaf7; /*Alabaster*/
     --accent2-color: #BFCFEE; /*Periwinkle*/
     --heading-font: "Lexend", sans-serif;
     --body-font: "Kantumruy Pro ", sans-serif;
@@ -24,9 +24,15 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h2 {
+  color: var(--secondary-color)
+  font-family: var(--heading-font);
+  font-weight: 600;
 }
 
 nav, p, section, article {

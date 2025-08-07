@@ -469,24 +469,27 @@ header, main, footer {
 
 /* Call to Action */
 .call-to-action {
-  background: var(--accent2-color);
   color: var(--accent1-color);
   text-align: center;
   padding: 0 2rem 2rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
-  }
+  background-color: var(--primary-color);
+  margin: 0;
+}
 
 .call-to-action h2 {
   font-size: 2.5rem;
-  margin-bottom: 0rem;
+  margin: 0;
+  color: var(--accent1-color);
 }
 
 .call-to-action p {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    font-size: 1.3rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    margin: 0;
 }
 
 .btn {
@@ -551,6 +554,7 @@ h3 {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-content: space-between;
+  margin: 0 0 20px 0;
 }
 
 .feature {
@@ -596,18 +600,20 @@ h3 {
 }
 
 .call-to-action {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: var(--accent1-color);
   text-align: center;
-  padding: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2.2rem;
   border-radius: 0.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 .call-to-action h2 {
   font-family: var(--heading-font);
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  padding: 0 15px 15px 15px;
 }
 
 .call-to-action p {
@@ -616,8 +622,8 @@ h3 {
 }
 
 .cta-btn {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
   padding: 0.8rem 1.5rem;
   border-radius: 0.5rem;
   text-decoration: none;
@@ -626,7 +632,7 @@ h3 {
 }
 
 .cta-btn:hover {
-  background-color: var(--accent2-color);
+  background-color: var(--secondary-color);
 }
 
 /*Trip Cards Section*/

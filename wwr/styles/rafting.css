@@ -413,21 +413,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: var(--secondary-color);
-  
-}
-
-/*homepage page*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
+  background-color: var(--secondary-color);  
 }
 
 /* Hero Section */

@@ -32,7 +32,7 @@ h1 {
 
 h2, h3, h4 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 
 nav, p, section, article {
@@ -310,17 +310,6 @@ article p {
   padding: 2rem;
   text-align: center;
 }
-
-.history2{
-    position: relative;
-    width: 100%;
-    text-align: center;
-    padding: 1rem;        
-    color: var(--accent1-color);
-    background-color: var(--primary-color);
-    margin: 1.5rem auto;
-   }
-
 
 .employee-grid {
   display: grid;

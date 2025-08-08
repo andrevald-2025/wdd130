@@ -25,11 +25,6 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
 h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
@@ -95,7 +90,7 @@ header {
     padding: 1.3rem 0 0 0;
 }
 
-.hero image {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
@@ -136,7 +131,7 @@ article p {
     font-family: var(--heading-font);
     font-weight: 400;
     text-align: justify;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 .hero article img {
@@ -285,11 +280,6 @@ article p {
   font-weight: 800;
 }
 
-.company-info a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
 .map-container {
   margin-top: 1.5rem;
   border-radius: 8px;
@@ -322,12 +312,7 @@ article p {
   background-color: var(--accent1-color);
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
-}
-
-.employee:hover {
-  transform: scale(1.03);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);  
 }
 
 .employee img {
@@ -458,7 +443,7 @@ header, main, footer {
   justify-content: center;
 }
 
-.home-hero image {
+.home-hero img {
     display: block;
     width: 100%;   
     height: auto;   
